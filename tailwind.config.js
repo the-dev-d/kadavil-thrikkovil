@@ -12,11 +12,17 @@ export default {
 
     theme: {
         extend: {
+            colors: {
+                p1: "#EAD7B4",
+            },
             fontFamily: {
                 sans: ["Figtree", ...defaultTheme.fontFamily.sans],
             },
             gridTemplateColumns: {
                 nav: "1fr min-content",
+            },
+            gridTemplateRows: {
+                cards: "0.5fr 1fr 1fr 0.5fr",
             },
         },
     },

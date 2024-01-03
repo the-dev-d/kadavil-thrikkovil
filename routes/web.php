@@ -3,6 +3,7 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\OfferingsController;
+use App\Http\Controllers\PagesController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Middleware\AdminMiddleware;
 use Illuminate\Support\Facades\Auth;
@@ -23,6 +24,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/vazhipaad', [ OfferingsController::class, 'index'])->name('offerings');
+Route::get('/temple', [ PagesController::class, 'temple'])->name('temple');
+Route::get('/melshanthi', [ PagesController::class, 'about'])->name('about');
+
 
 
 Route::get('/dashboard', [DashboardController::class,'show'])->middleware(['auth', 'verified'])->name('dashboard');

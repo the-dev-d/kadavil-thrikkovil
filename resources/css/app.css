@@ -6,24 +6,29 @@ html {
     background: #f6f6f6;
 }
 .cards {
-    grid-template-rows: 0.5fr 1fr 1fr 0.5fr;
-    grid-template-areas:
-        ". b ."
-        "a b c"
-        "a b c"
-        ". . .";
-}
-.grid-area-a {
-    grid-area: a;
 }
 
-.grid-area-b {
-    grid-area: b;
-}
-
-.grid-area-c {
-    grid-area: c;
-}
 .list-icon-item {
     grid-template-columns: min-content 1fr;
+}
+
+@layer components {
+    .template-area-card {
+        grid-template-areas:
+            ". b ."
+            "a b c"
+            "a b c"
+            ". . .";
+    }
+    .grid-area-a {
+        grid-area: a;
+    }
+
+    .grid-area-b {
+        grid-area: b;
+    }
+
+    .grid-area-c {
+        grid-area: c;
+    }
 }
