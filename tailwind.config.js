@@ -20,6 +20,7 @@ export default {
             },
             gridTemplateColumns: {
                 nav: "1fr min-content",
+                menu: "min-content 1fr",
             },
             gridTemplateRows: {
                 cards: "0.5fr 1fr 1fr 0.5fr",

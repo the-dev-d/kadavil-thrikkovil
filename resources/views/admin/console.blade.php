@@ -1,0 +1,1 @@
+<x-admin-menu :user=$user> Hello </x-admin-menu>

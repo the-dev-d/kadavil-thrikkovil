@@ -28,7 +28,7 @@ class OfferingsController extends Controller
 
         $offering = Offerings::find($id);
         $stars = Star::all();
-        return view('offerings_form', ["name" => $offering->name, "price" => $offering->price, "id" => $offering->id, 'stars' => $stars]);
+        return view('offerings_form', ["name" => $offering->name, "price" => $offering->price , "id" => $offering->id, 'stars' => $stars]);
     }
 
     public function booking_success(Request $request) {
@@ -68,7 +68,7 @@ class OfferingsController extends Controller
                   'product_data' => [
                     'name' => $booking->name,
                   ],
-                  'unit_amount' => $booking->price * 100,
+                  'unit_amount' => round($booking->price*100/97,2) * 100,
                 ],
                 'quantity' => 1,
               ]],

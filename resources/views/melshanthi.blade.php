@@ -4,10 +4,10 @@
     <div class="w-full h-[50vh] lg:h-[70vh] relative">
         <img class="absolute top-0 left-0 w-full h-full" src="images/about-banner.png" alt="">
         <img class="absolute bottom-0 left-0 w-full" src="images/about-wave.png" alt="">
-        <div class="container absolute bottom-0 grid gap-3 p-3 -translate-x-1/2 lg:gap-10 translate-y-3/4 lg:translate-y-1/3 lg:flex left-1/2">
-            <div class="relative w-4/6 md:w-1/4 aspect-square">
+        <div class="absolute bottom-0 left-0 grid w-full gap-3 p-3 lg:gap-10 translate-y-3/4 lg:translate-y-1/3 lg:flex">
+            <div class="relative w-1/2 lg:w-1/4 aspect-square">
                 <img class="absolute z-10 w-full h-full" src="images/about-poojari.png" alt="">
-                <div class="absolute bottom-0 z-20 w-full h-1/2 bg-gradient-to-t from-white to-transparent"></div>
+                <div class="absolute bottom-0 left-0 z-20 w-full h-1/2 bg-gradient-to-t from-white to-transparent"></div>
             </div>
             <div class="grid items-end w-full p-3 px-6 lg:w-3/4">
                 <div class="grid gap-6 mt-10">
@@ -22,7 +22,7 @@
         </div>
         
     </div>
-    <section class="container p-2 mx-auto my-60 lg:my-32"></section>
+    <section class="container p-2 mx-auto my-72 lg:my-28"></section>
     <section class="container py-20 mx-auto border-t-8 p-9 lg:py-36 border-p1">
         <h3 class="mt-10 text-3xl font-semibold uppercase">More Details</h3>
         <p class="mt-10">

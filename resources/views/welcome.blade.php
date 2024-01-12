@@ -57,8 +57,8 @@
                 </div>
             </div>
         </section>
-        <section id="contact" class="container p-6 mx-auto lg:mt-24">
-            <h3 class="my-10 text-2xl font-semibold md:text-4xl text-c1 lg:mt-28 lg:my-14">ബന്ധപ്പെടുക</h3>
+        <section id="contact" class="container p-6 mx-auto lg:my-24">
+            <h3 class="my-10 text-2xl font-semibold md:text-4xl text-c1 lg:mt-28 ">ബന്ധപ്പെടുക</h3>
             <div class="grid items-center gap-12 md:gap-7 lg:grid-cols-2">
                 <div class="hidden max-w-full mapouter md:block">
                     <div class="gmap_canvas ">

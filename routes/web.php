@@ -47,7 +47,11 @@ Route::post('/admin/login', [AdminController::class, 'sendToken'])->name('admin.
 Route::get('/admin/{admin}}', [AdminController::class, 'handle'])->name('login.signed');
 Route::middleware(AdminMiddleware::class)->group(function () {
     Route::get('/admin/console', [AdminController::class, 'show'])->name('console');
+    Route::get('/admin/console/today', [AdminController::class, 'today'])->name('console.today');
+    Route::post('/admin/console/today', [AdminController::class, 'today']);
+    Route::get('/admin/console/recent', [AdminController::class, 'recent'])->name('console.recent');
+    Route::post('/admin/console/recent', [AdminController::class, 'recent']);
+    Route::get('/admin/complete', [AdminController::class, 'complete'])->name('complete');
 });
-
 
 require __DIR__.'/auth.php';
