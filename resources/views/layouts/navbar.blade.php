@@ -54,6 +54,24 @@
                         <a href="/#contact">
                             <li class="p-4">ബന്ധപ്പെടുക</li>
                         </a>
+                        <a href="/#contact">
+                        @guest
+                            <a href="/login" class="flex items-center h-full p-4">
+                                Login
+                                <span class="material-symbols-outlined">
+                                    login
+                                </span>
+                            </a>  
+                        @endguest
+                        @auth
+                            <a href="/dashboard" class="flex items-center h-full p-4">
+                                <span class="material-symbols-outlined">
+                                    dashboard
+                                </span>
+                                Dashboard
+                            </a>
+                        @endauth
+                        </a>
                     </ul>
                 </div>
             </span>
