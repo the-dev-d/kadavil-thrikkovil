@@ -1,6 +1,6 @@
 <nav class="fixed top-0 left-0 z-40 grid w-full px-3 shadow-md brightness-125 bg-opacity-40 bg-p1 backdrop-blur-2xl">
     <div class="container grid items-center grid-cols-2 mx-auto lg:grid-cols-nav">
-        <h3 class="grid py-6 text-2xl font-semibold xl:mx-3 place-items-center text-nowrap justify-self-start">
+        <h3 class="grid py-6 font-semibold lg:text-2xl xl:mx-3 place-items-center text-nowrap justify-self-start">
             <a href="/">കടവിൽ തൃക്കോവിൽ</a>
         </h3>
         <ul class="hidden grid-flow-col gap-2 gap-20justify-items-center lg:grid">
@@ -35,10 +35,28 @@
                 @endauth
             </div>
         </ul>
-        <span class="justify-self-end lg:hidden">
-            <span class="material-symbols-outlined">
-                menu
+        <div class="relative justify-self-end">
+            <span class="justify-self-end group lg:hidden">
+                <span class="select-none material-symbols-outlined ">
+                    menu
+                </span>
+                <div class="absolute hidden bottom-0 right-0 translate-y-[110%] transition-all rounded-md overflow-hidden shadow-md group-hover:block bg-p1 w-[50vw]">
+                    <ul class="grid">
+                        <a href="/temple">
+                            <li class="p-4">ക്ഷേത്രത്തെക്കുറിച്ച്</li>
+                        </a>
+                        <a href="/vazhipaad">
+                            <li class="p-4">വഴിപാടുകൾ</li>
+                        </a>
+                        <a href="/melshanthi">
+                            <li class="p-4">തിരുമേനിയെകുറിച്ച്</li>
+                        </a>
+                        <a href="/#contact">
+                            <li class="p-4">ബന്ധപ്പെടുക</li>
+                        </a>
+                    </ul>
+                </div>
             </span>
-        </span>
+        </div>
     </div>
 </nav>

@@ -1,7 +1,7 @@
 <x-admin-menu :user=$user> 
     <form method="POST" class="w-full h-screen p-6 overflow-y-auto border-2 rounded-md">
         {{ csrf_field() }}
-        <div  class="flex items-end gap-3 my-3">
+        <div  class="grid items-end gap-3 my-3 lg:flex">
             <div>
                 <label for="countries" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Search field</label>
                 <select value='{{$searched}}'  id="countries" name="search" class="block w-full p-4 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
@@ -22,7 +22,7 @@
                     <button type="submit" class="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
                 </div>
             </div>
-            <a href="recent" class="p-4 border-2 rounded-md">
+            <a href="recent" class="p-4 border-2 rounded-md w-fit">
                 <span class="material-symbols-outlined">
                     refresh
                 </span>
@@ -34,16 +34,16 @@
                 <table class="w-full text-left border-2 text-g rounded-mdray-500 text-md rtl:text-right dark:text-gray-400 ">
                     <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                         <tr>
-                            <th scope="col" class="px-6 py-3 text-lg">
+                            <th scope="col" class="px-6 py-3 text-base lg:text-lg">
                                 പേര് 
                             </th>
-                            <th scope="col" class="px-6 py-3 text-lg">
+                            <th scope="col" class="px-6 py-3 text-base lg:text-lg">
                                 നക്ഷത്രം 
                             </th>
-                            <th scope="col" class="px-6 py-3 text-lg">
+                            <th scope="col" class="px-6 py-3 text-base lg:text-lg">
                                 മെയിൽ 
                             </th>
-                            <th scope="col" class="px-6 py-3 text-lg">
+                            <th scope="col" class="px-6 py-3 text-base lg:text-lg">
                                 സമയം  
                             </th>
                         </tr>
@@ -51,19 +51,19 @@
                     <tbody>
                         @foreach ($bookings as $booking)
                         <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                            <th scope="row" class="px-6 py-4 text-lg font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            <th scope="row" class="px-6 py-4 text-base font-medium text-gray-900 lg:text-lg whitespace-nowrap dark:text-white">
                                 {{$booking->booking_name}}
                             </th>
-                            <td class="px-6 py-4 text-lg">
+                            <td class="px-6 py-4 text-base lg:text-lg">
                                 {{$booking->star_name}}
                             </td>
-                            <td class="px-6 py-4 text-lg">
+                            <td class="px-6 py-4 text-base lg:text-lg">
                                 {{$booking->email}}
                             </td>
-                            <td class="px-6 py-4 text-lg">
+                            <td class="px-6 py-4 text-base lg:text-lg">
                                 {{$booking->booking_date}}
                             </td>
-                            {{-- <td class="px-6 py-4 text-lg">
+                            {{-- <td class="px-6 py-4 text-base lg:text-lg">
                                 @if ($booking->completed)
                                     <span class="p-4 text-green-500 material-symbols-outlined">
                                         done
@@ -80,6 +80,9 @@
                         @endforeach
                     </tbody>
                 </table>
+                <div class="p-3">
+                    {{$bookings->links()}}
+                </div>
             </div>
         </div>
     </form>

@@ -41,7 +41,12 @@ class AdminController extends Controller
     public function handle(Admin $admin) {
         
         Auth::guard('admin')->login($admin, true);
-        return redirect('admin/console');
+        return redirect('admin/console/today');
+    }
+
+    public function logOut() {
+        Auth::logout();
+        return redirect('home');
     }
 
     public function today(Request $request) {
@@ -71,7 +76,7 @@ class AdminController extends Controller
   
             $bookings = $bookings
             ->select(['stars.name as star_name', 'bookings.completed as completed', 'bookings.id as booking_id', 'users.name as user_name', 'offerings.name as offering_name', 'bookings.name as booking_name', 'users.email as email', 'bookings.created_at as booking_date'])
-            ->paginate(20);
+            ->paginate(10);
 
             return view('admin.today',  ['user' => Auth::guard('admin')->user(), 'bookings' => $bookings, 'searched' => $request->post('search'), 'value' => $request->post('value')]);
         }
@@ -101,7 +106,7 @@ class AdminController extends Controller
             }
             $bookings = $bookings
             ->select(['stars.name as star_name',  'bookings.completed as completed', 'bookings.id as booking_id', 'users.name as user_name', 'offerings.name as offering_name', 'bookings.name as booking_name', 'users.email as email', 'bookings.created_at as booking_date'])
-            ->paginate(20);
+            ->paginate(10);
 
         return view('admin.recent',  ['user' => Auth::guard('admin')->user(), 'bookings' => $bookings, 'searched' => $request->post('search'), 'value' => $request->post('value')]);
     }

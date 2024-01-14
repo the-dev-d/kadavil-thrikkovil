@@ -9,7 +9,7 @@
                 <img class="absolute z-10 w-full h-full" src="images/about-poojari.png" alt="">
                 <div class="absolute bottom-0 left-0 z-20 w-full h-1/2 bg-gradient-to-t from-white to-transparent"></div>
             </div>
-            <div class="grid items-end w-full p-3 px-6 lg:w-3/4">
+            <div class="grid items-end w-full p-3 lg:px-6 lg:w-3/4">
                 <div class="grid gap-6 mt-10">
                     <h3 class="text-2xl font-semibold md:text-4xl">
                         ABOUT MELSHANTHI
@@ -22,8 +22,8 @@
         </div>
         
     </div>
-    <section class="container p-2 mx-auto my-72 lg:my-28"></section>
-    <section class="container py-20 mx-auto border-t-8 p-9 lg:py-36 border-p1">
+    <section class="container p-2 mx-auto my-48 lg:my-28"></section>
+    <section class="container p-6 py-20 mx-auto border-t-8 lg:p-9 lg:py-36 border-p1">
         <h3 class="mt-10 text-3xl font-semibold uppercase">More Details</h3>
         <p class="mt-10">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis rutrum mauris, ac interdum nunc. Etiam sed lectus consequat magna faucibus convallis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean a mi dolor. Quisque fermentum justo sed nibh porta, eget varius turpis mattis. Curabitur quis volutpat ex, vitae mattis ex. Mauris mattis lobortis blandit. Phasellus nisi risus, dignissim eu molestie nec, tristique eu velit. Duis porttitor ipsum nulla, a malesuada nulla pellentesque sit amet. Etiam efficitur bibendum mauris vitae mollis. Nam vitae posuere sapien, mollis congue odio. Proin ut tellus dictum, sodales purus non, pellentesque enim. Suspendisse sit amet augue bibendum, luctus ipsum in, sagittis diam. Duis quis blandit dui.

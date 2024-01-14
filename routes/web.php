@@ -22,17 +22,16 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-});
+})->name('home');
 Route::get('/vazhipaad', [ OfferingsController::class, 'index'])->name('offerings');
 Route::get('/temple', [ PagesController::class, 'temple'])->name('temple');
 Route::get('/melshanthi', [ PagesController::class, 'about'])->name('about');
 
 
-
 Route::get('/dashboard', [DashboardController::class,'show'])->middleware(['auth', 'verified'])->name('dashboard');
 Route::get('/dashboard/recent', [DashboardController::class,'recent'])->middleware(['auth', 'verified'])->name('recent');
 
-Route::middleware('auth')->group(function () {
+Route::middleware(['auth','verified'])->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
@@ -42,9 +41,7 @@ Route::middleware('auth')->group(function () {
     Route::get('/vazhipaad/{offering_id}', [ OfferingsController::class, 'booking_form']);
 });
 
-Route::get('/admin/login', [AdminController::class, 'login']);
-Route::post('/admin/login', [AdminController::class, 'sendToken'])->name('admin.login');
-Route::get('/admin/{admin}}', [AdminController::class, 'handle'])->name('login.signed');
+
 Route::middleware(AdminMiddleware::class)->group(function () {
     Route::get('/admin/console', [AdminController::class, 'show'])->name('console');
     Route::get('/admin/console/today', [AdminController::class, 'today'])->name('console.today');
@@ -53,5 +50,9 @@ Route::middleware(AdminMiddleware::class)->group(function () {
     Route::post('/admin/console/recent', [AdminController::class, 'recent']);
     Route::get('/admin/complete', [AdminController::class, 'complete'])->name('complete');
 });
+
+Route::get('/admin/login', [AdminController::class, 'login']);
+Route::post('/admin/login', [AdminController::class, 'sendToken'])->name('admin.login');
+Route::get('/admin/{admin}', [AdminController::class, 'handle'])->name('login.signed');
 
 require __DIR__.'/auth.php';

@@ -23,6 +23,8 @@ class DashboardController extends Controller
             ->orderBy('created_at', 'DESC')
             ->get();
         //$bookings = Booking::where(['user_id' => $id])->whereDate('created_at', Carbon::today())->get();
+        // TODO paginate whenever possible 
+
         return view('dashboard', ['bookings' => $bookings]);
     }
 

@@ -1,15 +1,15 @@
 <x-base-app>
     @include('layouts.navbar')
     <div class="container grid h-screen p-3 mx-auto place-items-center">
-        <div class="grid w-full gap-10 p-10 m-3 mt-20 overflow-hidden border-2 rounded-md shadow-md lg:w-1/2 border-slate-200">
-            <div class="grid gap-3">
+        <div class="grid w-full gap-5 p-10 m-3 mt-20 overflow-hidden border-2 rounded-md shadow-md lg:gap-10 lg:w-1/2 border-slate-200">
+            <div class="grid lg:gap-3">
                 <div class="text-xl capitalize">{{$name}}</div>
                 <div>
                     <div class="text-2xl font-semibold">Rs. {{$price}}</div>
-                    <h5 class="mt-2 text-slate-400">+3% payment gateway charge</h5>
+                    <h5 class="text-sm lg:mt-2 text-slate-400">+3% payment gateway charge</h5>
                 </div>
             </div>
-            <form action={{route('booking')}} class="grid gap-6 my-3" method="POST">
+            <form action={{route('booking')}} class="grid gap-3 my-3 lg:gap-6" method="POST">
                 {{ csrf_field() }}
                 <input class="hidden" type="text" name="offering" value={{$id}}>
                 <div class="">

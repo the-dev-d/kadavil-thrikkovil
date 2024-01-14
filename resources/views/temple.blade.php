@@ -55,7 +55,7 @@
     </button>
 </div>
     </div>
-    <section class="container p-12 py-24 mx-auto">
+    <section class="container p-6 py-24 mx-auto lg:p-12">
         <h3 class="mt-10 text-3xl font-semibold uppercase">More Details</h3>
         <p class="mt-10">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis rutrum mauris, ac interdum nunc. Etiam sed lectus consequat magna faucibus convallis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean a mi dolor. Quisque fermentum justo sed nibh porta, eget varius turpis mattis. Curabitur quis volutpat ex, vitae mattis ex. Mauris mattis lobortis blandit. Phasellus nisi risus, dignissim eu molestie nec, tristique eu velit. Duis porttitor ipsum nulla, a malesuada nulla pellentesque sit amet. Etiam efficitur bibendum mauris vitae mollis. Nam vitae posuere sapien, mollis congue odio. Proin ut tellus dictum, sodales purus non, pellentesque enim. Suspendisse sit amet augue bibendum, luctus ipsum in, sagittis diam. Duis quis blandit dui.
