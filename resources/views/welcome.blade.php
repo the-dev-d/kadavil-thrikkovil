@@ -18,9 +18,17 @@
                 <div style="grid-template-rows: min-content 1fr" class="grid w-full h-full gap-4 p-5 lg:gap-10 lg:p-10">
                     <h3 class="w-full text-2xl font-semibold text-center lg:text-4xl text-amber-950">ക്ഷേത്ര സമയം</h3>
                     <div class="grid w-full gap-6 my-auto text-center lg:text-2xl">
-                        <div><span>9:00 - 10:00</span> <span>Content 1</span></div>
-                        <div><span>9:00 - 10:00</span> <span>Content 1</span></div>
-                        <div><span>9:00 - 10:00</span> <span>Content 1</span></div>
+                        <div><span>05:00 AM - </span> <span>നടതുറപ്പ്</span></div>
+                        <div><span>06:30 AM - </span> <span>ഗണപതി ഹോമം </span></div>
+                        <div><span>08:30 AM - </span> <span>പൂജ</span></div>
+                        <div><span>10:00 AM - </span> <span>നട അടക്കും</span></div>
+                        <div><span>10:00 AM - 10:30 AM - </span> <span>പൂജ (ദേവി ക്ഷേത്രത്തിൽ)</span></div>
+                        <div><span>05:30 PM - </span> <span>നട തുറക്കും</span></div>
+                        <div><span>സൂര്യാസ്തമയ സമയം - </span> <span>ദീപാരാധന</span></div>
+                        <div><span>07:00 PM - </span> <span>അത്താഴപൂജ</span></div>
+                        <div><span>07:30 PM - </span> <span>നട അടക്കും</span></div>
+                        <div><span>07:30 PM - </span> <span>പൂജ (ഭഗവതി ക്ഷേത്രത്തിൽ)</span></div>
+                        
                     </div>
                 </div>
             </div>

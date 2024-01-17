@@ -12,10 +12,12 @@
             <div class="grid items-end w-full p-3 lg:px-6 lg:w-3/4">
                 <div class="grid gap-6 mt-10">
                     <h3 class="text-2xl font-semibold md:text-4xl">
-                        ABOUT MELSHANTHI
+                       <br><br><br> ABOUT MELSHANTHI
                     </h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis rutrum mauris, ac interdum nunc. Etiam sed lectus consequat magna faucibus convallis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean a mi dolor. Quisque fermentum justo sed nibh porta,
+                    സന്തോഷ് കുമാർ താമരപള്ളിമഠം(ക്ഷേത്രം മേൽശാന്തി)<br>
+                    1996 മുതൽ സർവൈകാര്യ ദായകനായ പാർത്ഥസാരഥിയെയും, അമ്മ സ്വരൂപിണിയായ മാങ്കായി ഭഗവതിയെയും പൂജാകർമ്മങ്ങൾ നൽകി മുന്നോട്ട് പോകുന്നു. 
+                    താന്ത്രിക വിധിപ്രകാരമുള്ള പൂജക്കൊപ്പം ജോൽസ്യയും സ്വയത്തമാക്കിയ സന്തോഷ് ഗൃഹപ്രവേശപ്പൂജ, മറ്റുള്ള പരിഹാര പൂജകളും ശ്രേഷ്‌ഠ നടത്തിപ്പോരുന്നു.
                     </p>
                 </div>
             </div>
@@ -26,13 +28,16 @@
     <section class="container p-6 py-20 mx-auto border-t-8 lg:p-9 lg:py-36 border-p1">
         <h3 class="mt-10 text-3xl font-semibold uppercase">More Details</h3>
         <p class="mt-10">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis rutrum mauris, ac interdum nunc. Etiam sed lectus consequat magna faucibus convallis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean a mi dolor. Quisque fermentum justo sed nibh porta, eget varius turpis mattis. Curabitur quis volutpat ex, vitae mattis ex. Mauris mattis lobortis blandit. Phasellus nisi risus, dignissim eu molestie nec, tristique eu velit. Duis porttitor ipsum nulla, a malesuada nulla pellentesque sit amet. Etiam efficitur bibendum mauris vitae mollis. Nam vitae posuere sapien, mollis congue odio. Proin ut tellus dictum, sodales purus non, pellentesque enim. Suspendisse sit amet augue bibendum, luctus ipsum in, sagittis diam. Duis quis blandit dui.
+        1996 മുതൽ സർവൈകാര്യ ദായകനായ പാർത്ഥസാരഥിയെയും, അമ്മ സ്വരൂപിണിയായ മാങ്കായി ഭഗവതിയെയും പൂജാകർമ്മങ്ങൾ നൽകി മുന്നോട്ട് പോകുന്നു. 
+                    താന്ത്രിക വിധിപ്രകാരമുള്ള പൂജക്കൊപ്പം ജോൽസ്യയും സ്വയത്തമാക്കിയ സന്തോഷ് ഗൃഹപ്രവേശപ്പൂജ, മറ്റുള്ള പരിഹാര പൂജകളും ശ്രേഷ്‌ഠ നടത്തിപ്പോരുന്നു.
         </p>
         <p class="my-9">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis rutrum mauris, ac interdum nunc. Etiam sed lectus consequat magna faucibus convallis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean a mi dolor. Quisque fermentum justo sed nibh porta, eget varius turpis mattis. Curabitur quis volutpat ex, vitae mattis ex. Mauris mattis lobortis blandit. Phasellus nisi risus, dignissim eu molestie nec, tristique eu velit. Duis porttitor ipsum nulla, a malesuada nulla pellentesque sit amet. Etiam efficitur bibendum mauris vitae mollis. Nam vitae posuere sapien, mollis congue odio. Proin ut tellus dictum, sodales purus non, pellentesque enim. Suspendisse sit amet augue bibendum, luctus ipsum in, sagittis diam. Duis quis blandit dui.
+        1996 മുതൽ സർവൈകാര്യ ദായകനായ പാർത്ഥസാരഥിയെയും, അമ്മ സ്വരൂപിണിയായ മാങ്കായി ഭഗവതിയെയും പൂജാകർമ്മങ്ങൾ നൽകി മുന്നോട്ട് പോകുന്നു. 
+                    താന്ത്രിക വിധിപ്രകാരമുള്ള പൂജക്കൊപ്പം ജോൽസ്യയും സ്വയത്തമാക്കിയ സന്തോഷ് ഗൃഹപ്രവേശപ്പൂജ, മറ്റുള്ള പരിഹാര പൂജകളും ശ്രേഷ്‌ഠ നടത്തിപ്പോരുന്നു.
         </p>
         <p class="my-9">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis rutrum mauris, ac interdum nunc. Etiam sed lectus consequat magna faucibus convallis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean a mi dolor. Quisque fermentum justo sed nibh porta, eget varius turpis mattis. Curabitur quis volutpat ex, vitae mattis ex. Mauris mattis lobortis blandit. Phasellus nisi risus, dignissim eu molestie nec, tristique eu velit. Duis porttitor ipsum nulla, a malesuada nulla pellentesque sit amet. Etiam efficitur bibendum mauris vitae mollis. Nam vitae posuere sapien, mollis congue odio. Proin ut tellus dictum, sodales purus non, pellentesque enim. Suspendisse sit amet augue bibendum, luctus ipsum in, sagittis diam. Duis quis blandit dui.
+        1996 മുതൽ സർവൈകാര്യ ദായകനായ പാർത്ഥസാരഥിയെയും, അമ്മ സ്വരൂപിണിയായ മാങ്കായി ഭഗവതിയെയും പൂജാകർമ്മങ്ങൾ നൽകി മുന്നോട്ട് പോകുന്നു. 
+                    താന്ത്രിക വിധിപ്രകാരമുള്ള പൂജക്കൊപ്പം ജോൽസ്യയും സ്വയത്തമാക്കിയ സന്തോഷ് ഗൃഹപ്രവേശപ്പൂജ, മറ്റുള്ള പരിഹാര പൂജകളും ശ്രേഷ്‌ഠ നടത്തിപ്പോരുന്നു.
         </p>
     </section>
     </div>
