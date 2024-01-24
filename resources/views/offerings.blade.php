@@ -24,7 +24,7 @@
                         <h5 class="mt-2 text-xl font-semibold">Rs.{{$offering->price}}</h5>
                     </div>
                     <a class="xl:w-full justify-self-end" href={{ route('offerings')."/".$offering->id }}>
-                        <button type="button" class="text-white xl:w-full bg-amber-500 hover:bg-amber-800 focus:ring-4 focus:ring-amber-300 font-medium rounded-lg text-sm px-5 py-2.5  focus:outline-none">Book</button>
+                        <button type="button" class="text-white xl:w-full bg-amber-500 hover:bg-amber-800 focus:ring-4 focus:ring-amber-300 font-medium rounded-lg text-sm lg:text-base px-5 py-2.5  focus:outline-none">Book</button>
                     </a>
                 </div>
             @endforeach
