@@ -48,8 +48,9 @@ class OfferingsController extends Controller
         
         $session_id = $request->query('session_id');
         BookingOngoing::where('stripe_session_id', $session_id)->delete();
-
-        redirect('dashboard');
+        $stripe = new StripeClient(config('stripe.keys.secret'));
+        $stripe->checkout->sessions->expire($session_id);
+        return redirect('/vazhipaad');
     }
 
     public function book(Request $request) {
@@ -59,9 +60,9 @@ class OfferingsController extends Controller
         $name = $request->post('name');
         $star = $request->post('star');
 
-        $strip = new StripeClient(config('stripe.keys.secret'));
+        $stripe = new StripeClient(config('stripe.keys.secret'));
 
-        $session = $strip->checkout->sessions->create([
+        $session = $stripe->checkout->sessions->create([
             'line_items' => [[
                 'price_data' => [
                   'currency' => 'inr',
@@ -74,7 +75,7 @@ class OfferingsController extends Controller
               ]],
               'mode' => 'payment',
               'success_url' => route('booking_success')."?session_id={CHECKOUT_SESSION_ID}",
-              'cancel_url' => route('booking_failed')."session_id={CHECKOUT_SESSION_ID}",
+              'cancel_url' => route('booking_failed')."?session_id={CHECKOUT_SESSION_ID}",
             ]);
 
         //return redirect($session->url);
