@@ -55,6 +55,12 @@ class OfferingsController extends Controller
 
     public function book(Request $request) {
 
+        $request->validate([
+            "name" => "required|regex:^[A-Za-z]+(?:[.\s][A-Za-z]+)*$^",
+            "star" => "required|integer",
+            "offering" => "required|integer"
+        ]);
+
         $id = $request->post('offering');
         $booking  = Offerings::where('id', $id)->first();
         $name = $request->post('name');
