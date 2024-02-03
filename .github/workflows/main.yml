@@ -10,9 +10,9 @@ jobs:
         -   name: "Deploy to Cpanel via SSH"
             uses: "appleboy/ssh-action@v1.0.3"
             with:
-                host: 118.139.179.251
-                username: b4xq17v0tbnl
-                password: AccessOpen#2505@GDSSH
+                host: "118.139.179.251"
+                username: "b4xq17v0tbnl"
+                password: "AccessOpen#2505@GDSSH"
                 port: 22
                 script: |
                     cd kadavil_thrikkovil
