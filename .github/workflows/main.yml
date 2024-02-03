@@ -1,1 +1,28 @@
-
+name: "Deploy to Go Daddy Cpanel"
+on:
+    push:
+        branches:
+            - main
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+        -   name: "Deploy to Cpanel via SSH"
+            uses: "appleboy/ssh-action@master"
+            with:
+                host: ${{ secrets.SSH_HOST }}
+                username: ${{ secrets.SSH_USERNAME }}
+                password: ${{ secrets.SSH_PASSWORD }}
+                port: ${{ secrets.SSH_PORT }}
+                script: |
+                    cd kadavil_thrikkovil
+                    git pull
+                    php artisan config:clear
+                    php artisan route:clear
+                    php artisan view:clear
+                    cp ../.env.production .env
+                    composer install --optimize-autoloader --no-dev
+                    php artisan key:generate
+                    php artisan config:cache
+                    php artisan route:cache
+                    php artisan view:cache 
