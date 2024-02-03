@@ -15,7 +15,7 @@ jobs:
                 password: "AccessOpen#2505@GDSSH"
                 port: 22
                 script: |
-                    cd kadavil_thrikkovil
+                    cd kadavil-thrikkovil
                     git pull
                     php artisan config:clear
                     php artisan route:clear
