@@ -97,7 +97,7 @@
                             <span class="hidden p-2 text-2xl rounded-full md:block md:text-4xl md:p-3 text-slate-50 bg-amber-600 material-symbols-outlined">
                                 mail
                             </span>
-                            contact@kadavilthrikkovilmelshanthi.in
+                            support@kadavilthrikkovilmelshanthi.in
                         </div>
                     </div>
                 </div>
