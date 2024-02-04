@@ -60,8 +60,13 @@
         <p class="my-10 text-xl lg:text-2xl ">
         എറണാകുളം ജില്ലയുടെ തെക്കേ അതിർത്തിഭാഗമായ ഉദയംപേരൂർ എന്ന സ്ഥലത്തു സ്ഥിതിചെയ്യുന്നു. ഏകദേശം 800 ഓളം വര്‍ഷം എന്ന് കണക്കാക്കപ്പെടുന്നത് ക്ഷേത്രത്തില്‍‍ ചെയ്തിരിക്കുന്ന ചുവർചിത്രങ്ങളിലെ രേഖകളി ലൂടെയാണ് .കൈയ്യിൽ ചാട്ടവാറേന്തിയ പാർത്ഥസാരഥിയാണ്  ഇവിടെ വാണരുളുന്നത് എന്നത്  മറ്റ്‌  ക്ഷേത്രങ്ങളിൽ നിന്നും വ്യത്യസ്തമാക്കുന്നു. മാങ്കായി ഭഗവതി 1500 ഓളം വർഷം പഴക്കം ചെന്ന ഭദ്രകാളിക്ഷേത്രം നില നിന്നിരുന്ന സ്ഥലത്തേക്ക്, കായലിലൂടെ മൽസ്യബന്ധനതൊഴിലാളികൾ വഴിയെത്തിയ പാർത്ഥസാരഥിഭാഗത്തെ മാങ്കായി മനയുടെ സഹായത്തോടെ ജാതി അനാചാരങ്ങൾ നിലനിന്നിരുന്ന ആ കാലത്തു ജാതിഭേത ഒന്നിച്ചു കുടിയിരുത്തിയതാണെന്ന് പൂർവികർ പറയുന്നു. ഏറെ പ്രാധാന്യം അർഹിക്കുന്ന കടവിൽ തൃക്കോവിൽ ക്ഷേത്രം ഇന്ന്  സർവ്വൈശ്വര്യ വരദായകനായി എകതരയും കാത്തു നിൽക്കുന്നു.
         </p>
-        <div class="w-full aspect-video">
-            <iframe class="w-full h-full" src="https://www.youtube.com/embed/HbODZzfzdSo?si=5VoHp7crVwXHnk4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="grid w-full gap-3 md:grid-cols-2 md:gap-6">
+            <div class="w-full aspect-video">
+                <iframe class="w-full h-full" src="https://www.youtube.com/embed/s5sgtDclCvc?si=ib4vg2-WLLhd20IY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="w-full aspect-video">
+                <iframe class="w-full h-full" src="https://www.youtube.com/embed/HbODZzfzdSo?si=5VoHp7crVwXHnk4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
         </div>
     </section>
     </div>
