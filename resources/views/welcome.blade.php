@@ -39,27 +39,21 @@
                 <h3 class="text-4xl font-semibold text-white my-14">കൂടുതൽ അറിയാം</h3>
                 <div class="grid gap-6 my-16 lg:grid-cols-3 lg:grid-rows-cards lg:template-area-card">
                     <div class="grid gap-6 p-10 bg-white rounded-lg shadow-md lg:grid-area-a backdrop-blur-lg bg-opacity-20 shadow-slate-800">
-                        <h3 class="text-3xl font-semibold">ക്ഷേത്രം</h3>
+                        <h3 class="text-3xl font-semibold">വഴിപാട്</h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, dignissimos vel voluptatem ipsam enim voluptas! Ipsum soluta accusamus commodi numquam officia perferendis ipsa illo, officiis excepturi enim provident fugit vel minima dolores illum deleniti esse reiciendis quos autem. Esse, sequi.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, dignissimos vel voluptatem ipsam enim voluptas! Ipsum soluta accusamus commodi numquam officia perferendis ipsa illo, officiis excepturi enim provident fugit vel minima dolores illum deleniti esse reiciendis quos autem. Esse, sequi.
-                            
+                        ക്ഷേത്രത്തിലെ വഴിപാടുകൾ ഈ വെബ്സൈറ്റിലൂടെ ബുക്ക് ചെയ്യാവുന്നതാണ്. ശേഷം വഴിപാടുകൾ അമ്പലത്തിൽനിന്നും വാങ്ങാവുന്നതാണ്.
                         </p>
                     </div>
                     <div class="grid gap-6 p-10 bg-white rounded-lg shadow-md lg:grid-area-b backdrop-blur-lg bg-opacity-20 shadow-slate-800">
                         <h3 class="text-3xl font-semibold">ക്ഷേത്രം</h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, dignissimos vel voluptatem ipsam enim voluptas! Ipsum soluta accusamus commodi numquam officia perferendis ipsa illo, officiis excepturi enim provident fugit vel minima dolores illum deleniti esse reiciendis quos autem. Esse, sequi.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, dignissimos vel voluptatem ipsam enim voluptas! Ipsum soluta accusamus commodi numquam officia perferendis ipsa illo, officiis excepturi enim provident fugit vel minima dolores illum deleniti esse reiciendis quos autem. Esse, sequi.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, dignissimos vel voluptatem ipsam enim voluptas! Ipsum soluta accusamus commodi numquam officia perferendis ipsa illo, officiis excepturi enim provident fugit vel minima dolores illum deleniti esse reiciendis quos autem. Esse, sequi.
-                        
+                        എറണാകുളം ജില്ലയുടെ തെക്കേ അതിർത്തിഭാഗമായ ഉദയംപേരൂർ എന്ന സ്ഥലത്തു സ്ഥിതിചെയ്യുന്ന ക്ഷേത്രമാണ് കടവിൽ തൃക്കോവിൽ ശ്രീകൃഷ്ണസ്വാമിക്ഷേത്രം. ഏകദേശം 800 ഓളം വര്‍ഷം പഴക്കം ചെന്ന ക്ഷേത്രം ആണെന്നതാണ് ക്ഷേത്രത്തിലെ ചുവർ ചിത്രങ്ങളിലെ രേഖകളിലൂടെ മനസ്സിലാക്കാനാകുന്നത്.
                         </p>
                     </div>
                     <div class="grid gap-6 p-10 bg-white rounded-lg shadow-md lg:grid-area-c backdrop-blur-lg bg-opacity-20 shadow-slate-800">
-                        <h3 class="text-3xl font-semibold">ക്ഷേത്രം</h3>
+                        <h3 class="text-3xl font-semibold">തിരുമേനി</h3>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, dignissimos vel voluptatem ipsam enim voluptas! Ipsum soluta accusamus commodi numquam officia perferendis ipsa illo, officiis excepturi enim provident fugit vel minima dolores illum deleniti esse reiciendis quos autem. Esse, sequi.
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, dignissimos vel voluptatem ipsam enim voluptas! Ipsum soluta accusamus commodi numquam officia perferendis ipsa illo, officiis excepturi enim provident fugit vel minima dolores illum deleniti esse reiciendis quos autem. Esse, sequi.
+                        1996 മുതൽ സർവൈകാര്യ ദായകനായ പാർത്ഥസാരഥിയെയും, അമ്മ സ്വരൂപിണിയായ മാങ്കായി ഭഗവതിയെയും പൂജാകർമ്മങ്ങൾ നൽകി മുന്നോട്ട് പോകുന്നു.
                         </p>
                     </div>
                 </div>
