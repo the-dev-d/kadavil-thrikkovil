@@ -32,16 +32,17 @@ return [
     |            "postmark", "log", "array", "failover", "roundrobin"
     |
     */
-    'stream' => [
-        'ssl' => [
-            'allow_self_signed' => true,
-            'verify_peer' => false,
-            'verify_peer_name' => false,
-        ],
-    ],
 
     'mailers' => [
+        'stream' => [
+            'ssl' => [
+                'allow_self_signed' => true,
+                'verify_peer' => false,
+                'verify_peer_name' => false,
+            ],
+        ],
         'smtp' => [
+            
             'transport' => 'smtp',
             'url' => env('MAIL_URL'),
             'host' => env('MAIL_HOST', 'smtp.mailgun.org'),
