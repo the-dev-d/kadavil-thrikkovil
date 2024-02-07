@@ -2,11 +2,11 @@
     <div class="bg-white">
         @include('layouts.navbar')
     <div class="w-full h-[50vh] lg:h-[70vh] relative">
-        <img class="absolute top-0 left-0 w-full h-full" src="images/about-banner.webp" alt="">
-        <img class="absolute bottom-0 left-0 w-full" src="images/about-wave.png" alt="">
+        <img class="absolute top-0 left-0 object-cover w-full h-full" src="images/about-banner.webp" alt="">
+        <img class="absolute bottom-0 left-0 object-cover w-full" src="images/about-wave.png" alt="">
         <div class="absolute bottom-0 left-0 grid w-full gap-3 p-3 lg:gap-10 translate-y-3/4 lg:translate-y-1/3 lg:flex">
             <div class="relative w-1/2 lg:w-1/4 aspect-square">
-                <img class="absolute z-10 w-full h-full" src="images/about-poojari.webp" alt="">
+                <img class="absolute z-10 object-cover w-full h-full" src="images/about-poojari.webp" alt="">
                 <div class="absolute bottom-0 left-0 z-20 w-full h-1/2 bg-gradient-to-t from-white to-transparent"></div>
             </div>
             <div class="grid items-end w-full p-3 lg:px-6 lg:w-3/4">
