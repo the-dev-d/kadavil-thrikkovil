@@ -1,6 +1,6 @@
 <x-base-app> 
-    <main class="grid w-full h-full lg:flex ">
-        <section class="w-full h-full border-2 shadow-md lg:w-1/6">
+    <main class="grid content-start w-full h-full lg:flex lg:content-normal ">
+        <section class="w-full border-2 shadow-md h-fit lg:h-full lg:w-1/6">
             <div class="flex flex-col h-full justify-items-start">
                 <div class="hidden w-full p-10 text-xl font-semibold border-b-2 lg:block">
                     Logged in as 
@@ -24,6 +24,14 @@
                                 history
                             </span>
                             Recent
+                        </li>
+                    </a>
+                    <a class="lg:w-full" href="/admin/console/vazhipaad">
+                        <li @class(["flex items-center w-full gap-3 p-5 font-semibold border-b-2", "bg-p1 bg-opacity-60" => request()->routeIs('console.offerings')])>
+                            <span class="material-symbols-outlined">
+                                history
+                            </span>
+                            Vazhipaad
                         </li>
                     </a>
                     <a class="lg:w-full" class="flex-auto" href="/admin/logout">

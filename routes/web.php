@@ -3,6 +3,7 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\OfferingsController;
+use App\Http\Controllers\OfferingsPanelController;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Middleware\AdminMiddleware;
@@ -44,6 +45,8 @@ Route::middleware(['auth','verified'])->group(function () {
 
 Route::middleware(AdminMiddleware::class)->group(function () {
     Route::get('/admin/console', [AdminController::class, 'show'])->name('console');
+    Route::get('/admin/console/vazhipaad', [OfferingsPanelController::class, 'get'])->name('console.offerings');
+    Route::post('/admin/console/vazhipaad', [OfferingsPanelController::class, 'add'])->name('console.offerings.add');
     Route::get('/admin/console/today', [AdminController::class, 'today'])->name('console.today');
     Route::post('/admin/console/today', [AdminController::class, 'today']);
     Route::get('/admin/console/recent', [AdminController::class, 'recent'])->name('console.recent');
