@@ -11,7 +11,7 @@
                 <li @class(['h-full p-6 text-xl transition-colors hover:bg-opacity-70 border-y-4 border-transparent hover:border-b-amber-500 hover:border-opacity-70 hover:bg-white', 'border-b-amber-600' => Request::routeIs('offerings')])>വഴിപാടുകൾ</li>
             </a>
             <a href="/melshanthi">
-                <li @class(['h-full p-6 text-xl transition-colors hover:bg-opacity-70 border-y-4 border-transparent hover:border-b-amber-500 hover:border-opacity-70 hover:bg-white', 'border-b-amber-600' => Request::routeIs('thirumeni')])>തിരുമേനിയെകുറിച്ച്</li>
+                <li @class(['h-full p-6 text-xl transition-colors hover:bg-opacity-70 border-y-4 border-transparent hover:border-b-amber-500 hover:border-opacity-70 hover:bg-white', 'border-b-amber-600' => Request::routeIs('melshanthi')])>തിരുമേനിയെകുറിച്ച്</li>
             </a>
             <a href="/#contact">
                 <li @class(['h-full p-6 text-xl transition-colors hover:bg-opacity-70 border-y-4 border-transparent hover:border-b-amber-500 hover:border-opacity-70 hover:bg-white', 'border-b-amber-600' => Request::routeIs('#contact')])>ബന്ധപ്പെടുക</li>

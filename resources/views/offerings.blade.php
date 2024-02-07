@@ -1,6 +1,6 @@
 <x-base-app>
     @include('layouts.navbar')
-    <div class="mt-20 antialiased">
+    <div class="my-20 antialiased">
         <div class="container p-3 mx-auto bg-white">
             <div class="flex items-center justify-center gap-6 p-6 my-3 bg-white border-2 rounded-md shadow-md ">
                 <span class="material-symbols-outlined">
@@ -30,6 +30,7 @@
             @endforeach
         </div>
     </div>
+    @include('layouts.footer')
 </x-base-app>
     
 
