@@ -60,7 +60,7 @@
             </div>
         </section>
         <section id="contact" class="container p-6 mx-auto my-9 lg:my-24">
-            <h3 class="p-3 text-2xl font-semibold lg:my-5 md:text-4xl text-c1 lg:mt-28 ">ബന്ധപ്പെടുക</h3>
+            <h3 class="p-3 text-2xl font-semibold lg:my-10 md:text-4xl text-c1 lg:-mt-16 ">ബന്ധപ്പെടുക</h3>
             <div class="grid items-center lg:gap-12 md:gap-7 lg:grid-cols-2">
                 <div class="hidden max-w-full mapouter md:block">
                     <div class="gmap_canvas ">

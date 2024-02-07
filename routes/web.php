@@ -25,7 +25,7 @@ Route::get('/', function () {
 })->name('home');
 Route::get('/vazhipaad', [ OfferingsController::class, 'index'])->name('offerings');
 Route::get('/temple', [ PagesController::class, 'temple'])->name('temple');
-Route::get('/melshanthi', [ PagesController::class, 'about'])->name('about');
+Route::get('/melshanthi', [ PagesController::class, 'about'])->name('melshanthi');
 
 
 Route::get('/dashboard', [DashboardController::class,'show'])->middleware(['auth', 'verified'])->name('dashboard');
