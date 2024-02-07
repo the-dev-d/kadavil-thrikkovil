@@ -3,18 +3,18 @@
         @include('layouts.navbar')
         
         <div class="relative h-[60vh] lg:h-screen max-h-screen max-w-screen">
-            <img class="object-cover w-full h-full brightness-90" src={{asset('/images/main-krishna-banner.jpg')}} alt="">
+            <img class="object-cover w-full h-full brightness-90" src={{asset('/images/main-krishna-banner.webp')}} alt="">
             <div class="absolute z-20 grid text-2xl font-bold text-white -translate-y-1/2 lg:translate-x-10 md:text-4xl left-3 top-1/2">
                 <span class="text-3xl md:text-6xl">കടവിൽ തൃക്കോവിൽ </span>
                 <span class="mt-2"> ശ്രീകൃഷ്ണസ്വാമി ക്ഷേത്രം </span>
             </div>
             <div class="absolute bottom-0 w-full translate-y-1/2">
-                <img class="w-full" src={{asset('images/main-paper.png')}} alt="">
+                <img class="w-full" src={{asset('images/main-paper.webp')}} alt="">
             </div>
         </div>
         
         <section class="container p-6 mx-auto mt-20 md:mt-72 py-10lg:py-14">
-            <div style="background: url('images/main-temple-timings-bg.png')" class="relative grid w-full gap-8 py-3 overflow-hidden rounded-2xl justify-items-center drop-shadow-lg">
+            <div style="background: url('images/main-temple-timings-bg.webp')" class="relative grid w-full gap-8 py-3 overflow-hidden rounded-2xl justify-items-center drop-shadow-lg">
                 <div style="grid-template-rows: min-content 1fr" class="grid w-full h-full gap-4 p-5 lg:gap-10 lg:p-10">
                     <h3 class="w-full text-2xl font-semibold text-center lg:text-4xl text-amber-950">ക്ഷേത്ര സമയം</h3>
                     <div class="grid w-full gap-6 my-auto text-center lg:text-2xl">
@@ -34,7 +34,7 @@
             </div>
         </section>
         <section class="relative object-cover w-full p-3 my-10 bg-no-repeat lg:my-24 lg:p-6">
-            <img class="absolute top-0 left-0 object-cover w-full h-full" src={{asset('images/main-peacock.png')}} alt="">
+            <img class="absolute top-0 left-0 object-cover w-full h-full" src={{asset('images/main-peacock.webp')}} alt="">
             <div class="container z-10 mx-auto text-white lg:p-3 re6ative">
                 <h3 class="text-4xl font-semibold text-white my-14">കൂടുതൽ അറിയാം</h3>
                 <div class="grid gap-6 my-16 lg:grid-cols-3 lg:grid-rows-cards lg:template-area-card">
