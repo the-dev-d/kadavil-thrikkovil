@@ -47,6 +47,8 @@ Route::middleware(AdminMiddleware::class)->group(function () {
     Route::get('/admin/console', [AdminController::class, 'show'])->name('console');
     Route::get('/admin/console/vazhipaad', [OfferingsPanelController::class, 'get'])->name('console.offerings');
     Route::post('/admin/console/vazhipaad', [OfferingsPanelController::class, 'add'])->name('console.offerings.add');
+    Route::put('/admin/console/vazhipaad', [OfferingsPanelController::class, 'put'])->name('console.offerings.put');
+    Route::delete('/admin/console/vazhipaad', [OfferingsPanelController::class, 'delete'])->name('console.offerings.delete');
     Route::get('/admin/console/today', [AdminController::class, 'today'])->name('console.today');
     Route::post('/admin/console/today', [AdminController::class, 'today']);
     Route::get('/admin/console/recent', [AdminController::class, 'recent'])->name('console.recent');

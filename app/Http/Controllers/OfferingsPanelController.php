@@ -20,15 +20,45 @@ class OfferingsPanelController extends Controller
     public function get(Request $request) {
         $offerings = Offerings::all();
         $mode = $request->get('mode');
-        return view('admin.offerings', ['offerings' => $offerings, 'user' => Auth::guard('admin')->user(), 'mode' => $mode]);
+        $edit_id = $request->get('edit_id');
+        return view('admin.offerings', ['offerings' => $offerings, 'user' => Auth::guard('admin')->user(), 'mode' => $mode, 'edit_id' => $edit_id]);
     }
 
     public function add(Request $request) {
         $request->validate([
             'name' => 'required',
-            'price' => 'required|numeric'
+            'price' => 'required'
         ]);
-        dd($request->all());
+        $name = $request->get('name');
+        $price = $request->get('price');
+        $offerings = new Offerings;
+        $offerings->name = $name;
+        $offerings->price = $price;
+        $offerings->save();
+
+        return redirect()->route('console.offerings');
+    }    
+
+    public function put(Request $request) {
+        
+        $name = $request->get('name');
+        $price = $request->get('price');
+        $id = $request->get('id');
+        $offerings = Offerings::find($id);
+        $offerings->name = $name;
+        $offerings->price = $price;
+        $offerings->save(); 
+        return redirect()->route('console.offerings');
+    }    
+
+    public function delete(Request $request) {
+        $request->validate([
+            'id' => 'required'
+        ]); 
+        $id = $request->get('id');
+        $offerings = Offerings::find($id);
+        $offerings->delete(); 
+        return redirect()->route('console.offerings');
     }    
     
 }
