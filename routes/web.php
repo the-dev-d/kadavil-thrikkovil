@@ -52,6 +52,8 @@ Route::middleware(AdminMiddleware::class)->group(function () {
 });
 
 Route::get('/admin/login', [AdminController::class, 'login']);
+Route::get('/terms-of-service',function() {return view('terms-of-service');});
+Route::get('/privacy-policy',function() {return view('privacy-policy');});
 Route::post('/admin/login', [AdminController::class, 'sendToken'])->name('admin.login');
 Route::get('/admin/{admin}', [AdminController::class, 'handle'])->name('login.signed');
 
