@@ -85,7 +85,10 @@
                             <span class="hidden p-2 text-2xl rounded-full md:block md:text-4xl md:p-3 text-slate-50 bg-amber-600 material-symbols-outlined">
                                 call
                             </span>
-                            +91 6969696969
+                            <div>
+                                +91 94474 60073 <br>
+                                +91 88485 61554
+                            </div>
                         </div>
                         <div class="grid items-center gap-6 md:flex">
                             <span class="hidden p-2 text-2xl rounded-full md:block md:text-4xl md:p-3 text-slate-50 bg-amber-600 material-symbols-outlined">

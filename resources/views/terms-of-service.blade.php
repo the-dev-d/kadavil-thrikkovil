@@ -17,16 +17,6 @@
                 </li>
             
                 <li>
-                    <h2 class="mt-6 text-xl font-semibold">Refund and Cancellation:</h2>
-                    <ul class="ml-3 list-disc">
-                        <li>Refund and cancellation requests must be made directly to the temple's pandit through the contact information provided on our website's contact us page.</li>
-                        <li>Refund requests must be initiated during non-temple hours.</li>
-                        <li>Refunds will be processed within 24 hours upon verification via phone by the temple's pandit.</li>
-                        <li>Kadavil Thrikkovil Temple reserves the right to determine refund eligibility based on the circumstances of each request.</li>
-                    </ul>
-                </li>
-            
-                <li>
                     <h2 class="mt-6 text-xl font-semibold">Data Collection and Privacy:</h2>
                     <ul class="ml-3 list-disc">
                         <li>We collect only the necessary information for booking offerings, including email addresses, offering booking names, and star signs. We do not store payment information.</li>

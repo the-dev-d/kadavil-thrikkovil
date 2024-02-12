@@ -14,6 +14,14 @@
             <li>Star signs</li>
         </ul>
 
+        <h2 class="mt-6 text-xl font-semibold">Refund and Cancellation:</h2>
+        <ul class="ml-3 list-disc">
+            <li>Refund and cancellation requests must be made directly to the temple's pandit through the contact information provided on our website's contact us page.</li>
+            <li>Refund requests must be initiated during non-temple hours.</li>
+            <li>Refunds will be processed within 24 hours upon verification via phone by the temple's pandit.</li>
+            <li>Kadavil Thrikkovil Temple reserves the right to determine refund eligibility based on the circumstances of each request.</li>
+        </ul>
+
         <h2 class="text-xl font-semibold">Purpose of Use</h2>
         <p>The information collected is used solely for the purpose of booking Hindu religious offerings at Kadavil Thrikkovil Temple.</p>
 
