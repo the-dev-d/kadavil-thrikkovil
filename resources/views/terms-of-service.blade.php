@@ -12,7 +12,7 @@
                     <h2 class="mt-6 text-xl font-semibold">Booking and Payment:</h2>
                     <ul class="ml-3 list-disc">
                         <li>Our website facilitates the booking of Hindu religious offerings at Kadavil Thrikkovil Temple. To book an offering, users are required to provide their email address, the name of the offering, and their star sign.</li>
-                        <li>Payment for offerings is processed securely through Stripe. By making a payment, you agree to abide by Stripe's terms of service.</li>
+                        <li>Payment for offerings is processed securely through Razorpay. By making a payment, you agree to abide by Razorpay's terms of service.</li>
                     </ul>
                 </li>
             
