@@ -13,9 +13,10 @@ jobs:
         -   name: "Deploy to Cpanel via SSH"
             uses: "appleboy/ssh-action@v1.0.3"
             with:
+                # It's dangerous, change your creds immediately!!!
                 host: "118.139.179.186"
                 username: "nrwvznlrv5n8"
-                password: "AccessOpen#2505@GDSSH"
+                password: "AccessOpen#2505@GDSSH" 
                 port: 22
                 script: |
                     cd kadavil-thrikkovil
