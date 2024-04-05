@@ -17,6 +17,12 @@
             <a href="/#contact">
                 <li class="lg:text-xl">ബന്ധപ്പെടുക</li>
             </a>
+            <a href="/privacy-policy">
+                <li class="lg:text-xl">Privacy Policy</li>
+            </a>
+            <a href="/terms-of-service">
+                <li class="lg:text-xl">Terms of Service</li>
+            </a>
         </ul>
     </div>
 </footer>
